@@ -1,0 +1,69 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game .hero:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.game .hero {
+    transition: transform 0.3s 0.1s ease;
+}
+
+
+.game .hero:nth-child(3n+2) a:hover {
+    background: rgba(220, 20, 60, 0.8);
+}
+
+.game .hero:nth-child(3n+1) a:hover {
+    background: dodgerblue;
+}
+
+.game .hero:nth-child(3n) a:hover {
+    background: rgba(94, 94, 94, 0.5);
+}
+
+.game a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    transition: background 0.7s 0.1s ease;
+}
+
+
+.game h1 {
+    font-size: 4vw;
+    text-align: center;
+    margin: 20px 0;
+}
+
+section.hero {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    width: 60%;
+    background-color: #ededed;
+    /* margin: 20px; */
+}
+
+section.hero img {
+    width: 220px;
+    height: 220px;
+    background-position: cover;
+}
+
+.hero-discription {
+    padding: 20px;
+}
+
+.hero-discription h2 {
+    font-size: 3vw;
+    margin-bottom: 20px;
+}
+
+.hero-discription p {
+    font-size: 1.5vw;
+}
