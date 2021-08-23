@@ -1,6 +1,7 @@
 let player;
 
-function Player(health, mana, armor, str, agil, intel) {
+function Player(name, health, mana, armor, str, agil, intel) {
+    this.name = name;
     this.health = health;
     this.mana = mana;
     this.mana = mana;
