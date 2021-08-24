@@ -73,3 +73,49 @@
     box-shadow: 0 4px 8px 0;
     transition: background-color 0.7s ease-in-out;
 }
+
+@media screen and (max-width: 800px) {
+    /* .fight-page img {
+        width: 200px;
+        height: 100px;
+    }
+
+    .fight-page .hero-content {
+        width: 200px;
+        height: 100px;
+    } */
+
+    .fight {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .fight .player1 {
+        /* flex-basis: 40%; */
+        align-self: flex-start;
+        margin-bottom: 20px;
+        /* margin-right: 10%; */
+    }
+
+    .fight-page .hero-content h3 {
+        font-size: 6vw;
+        margin-bottom: 10px;
+    }
+    
+    .fight-page .hero-content p {
+        font-size: 3vw;
+        line-height: 6vw;
+    }
+
+    .find-match {
+        flex-basis: 20%;
+        margin-left: 0;
+        align-self: center;
+    }
+
+    .battle {
+        flex-basis: 20%;  
+        align-self: center;
+    }
+    
+}
