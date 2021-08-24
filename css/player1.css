@@ -1,0 +1,75 @@
+.fight {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.fight .player1 {
+    /* flex-basis: 40%; */
+    align-self: flex-start;
+    /* margin-right: 10%; */
+}
+
+.fight-page img {
+    width: 300px;
+    height: 168px;
+}
+
+.fight-page .hero-content {
+    padding: 20px;
+    width: 300px;
+    background-color: #ededed;
+}
+
+.fight-page .hero-content h3 {
+    font-size: 2vw;
+    margin-bottom: 10px;
+}
+
+.fight-page .hero-content p {
+    font-size: 1.3vw;
+    line-height: 2vw;
+}
+
+@keyframes redToGreen{
+    from {background-color: red;}
+    to {background-color: greenyellow;}
+}
+
+.find-match {
+    margin-top: 20px;
+    display: flex;
+    flex-basis: 40%;
+    margin-left: 20%;
+}
+
+.find-match button{
+    padding: 20px 50px;
+    margin-bottom: 20px;
+    font-size: 2vw;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 0 4px 8px 0;
+    transition: background-color 0.7s ease-in-out;
+    animation: redToGreen 2s infinite ;
+}
+
+.battle {
+    margin-top: 20px;
+    display: flex;
+    flex-basis: 40%;  
+}
+
+.battle button{
+    padding: 20px 50px;
+    margin-bottom: 20px;
+    font-size: 2vw;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 0 4px 8px 0;
+    transition: background-color 0.7s ease-in-out;
+}
