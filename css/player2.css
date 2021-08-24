@@ -30,7 +30,25 @@
 
 .vs {
     display: flex;
+    text-align: center;
     justify-content: center;
     align-self: center;
     width: 20%;
+}
+
+@media screen and (max-width: 800px) {
+    .player2 {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    
+    .player2 .hero-content h3 {
+        font-size: 6vw;
+        margin-bottom: 10px;
+    }
+    
+    .player2 .hero-content p {
+        font-size: 3vw;
+        line-height: 6vw;
+    }
 }
