@@ -1,0 +1,36 @@
+.player2 {
+    display: flex;
+    margin-left: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.player2 img {
+    width: 300px;
+    height: 168px;
+}
+
+.player2 .hero-content {
+    padding: 20px;
+    background-color: #ededed;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.player2 .hero-content h3 {
+    font-size: 2vw;
+    margin-bottom: 10px;
+}
+
+.player2 .hero-content p {
+    font-size: 1.3vw;
+    line-height: 2vw;
+}
+
+.vs {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 20%;
+}
