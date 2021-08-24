@@ -22,7 +22,7 @@
     background: dodgerblue;
 }
 
-.game .hero:nth-child(3n) a:hover {
+.game .hero:nth-child(3n) a:hover .hero-discription{
     background: rgba(94, 94, 94, 0.5);
 }
 
@@ -66,4 +66,27 @@ section.hero img {
 
 .hero-discription p {
     font-size: 1.5vw;
+}
+
+@media screen and (max-width: 600px) {
+    section.hero img {
+        width: auto;
+        height: auto;
+    }
+    .hero a{
+        flex-direction: column;
+    }
+
+    section.hero {
+        margin-bottom: 20px;
+    }
+
+    .hero-discription h2 {
+        font-size: 5vw;
+        margin-bottom: 20px;
+    }
+    
+    .hero-discription p {
+        font-size: 3vw;
+    }
 }
