@@ -1,4 +1,5 @@
-let player;
+let player1;
+let player2;
 
 function Player(name, health, mana, armor, str, agil, intel) {
     this.name = name;
